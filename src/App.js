@@ -16,7 +16,7 @@ class App extends Component {
       <div className="App">
         <div className="menu">
             <ul>
-              <li> <Link to={`/pythagoras?a=12&b=9&c=15`}>Pythagoras</Link> </li>
+              <li> <Link to={`/pythagoras?a=12&b=9&c=15`}>Pythagoras - Click Here</Link> </li>
             </ul>
         </div>
         <div className="App-intro">

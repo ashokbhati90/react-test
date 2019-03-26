@@ -59,7 +59,7 @@ ul {
 }
 
 body {
-	background-color: #D2D2FF;
+	background-color: #dddddd;
 	overflow: hidden;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -223,13 +223,6 @@ body {
 	letter-spacing: 0.5vmin;
 }
 
-p {
-	animation: rotateLetter 10s cubic-bezier(0.42, 0, 0.43, 0.86) infinite;
-}
-
-sup {
-	font-size: 4vmin;
-}
 
 @keyframes rotate {
 	0% {
@@ -319,4 +312,21 @@ sup {
 	100% {
 		transform: rotate(360deg);
 	}
+}
+
+.title{
+	padding: 20px 0 10px;
+}
+.title2{
+	padding-bottom: 30px;
+}
+
+.txt_home{
+	font: 0.875rem arial;
+	padding-bottom: 40px;
+}
+
+.txt_home1{
+	font: 0.875rem arial;
+	padding: 30px 0;
 }
